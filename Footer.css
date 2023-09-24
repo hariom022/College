@@ -1,0 +1,30 @@
+.footer{
+    margin-top: 100px;
+    background-color: black;
+}
+.footer .footer-container{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    padding:  55px 0px;
+    
+
+}
+/* media Query */
+@media only screen and (max-width:650px){
+   
+    .footer .footer-container{
+        display: block;
+        justify-content: center;
+        text-align: center;
+    }
+    .footer .footer-container .f1{
+        padding: 20px 0px;
+    }
+    .footer .footer-container .menu{
+        padding: 20px 0px;
+    }
+    .footer .footer-container .social-media{
+        padding: 20px 0px;
+    }
+}

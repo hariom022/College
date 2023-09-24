@@ -1,0 +1,151 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+ /* Navigation bar1 */
+.nav{
+    background-color: black;
+    margin-top: 50px;
+    height: 50px;
+    
+
+}
+.nav .nav-container{
+    display: flex;
+    color: #fff;
+    justify-content: space-around;
+    padding-top: 15px;
+    text-align: center;
+} 
+
+.nav .nav-container ul{
+    display: flex;
+    
+}
+.nav .nav-container ul li{
+    text-decoration: none;
+    list-style: none;
+    list-style-type: none;
+    margin-right: 20px;
+}
+.nav .nav-container .menu-bar{
+    display: none;
+}
+.nav .nav-container button{
+    background-color: rgb(9, 9, 236);
+    color: #fff;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+
+@media only screen and (max-width:550px){
+
+    .nav .nav-container ul{
+        display: none;   
+    }
+    .nav .nav-container .menu-bar{
+        display: block;
+    }
+}
+
+ /* Navigation bar2 */
+.nav2 {
+    margin-top: 50px;
+    height: 50px;
+    background-color: black;
+}
+
+.nav2 .nav-container2{ 
+    display: flex;
+    color: #fff;
+    justify-content: space-around;
+    padding-top: 15px;
+    text-align: center;
+
+}
+.nav2 .nav-container2 .menu-bar{
+    display: none;
+}
+.nav2 .nav-container2 ul{
+    display: flex;
+    margin-right: 23%;
+    
+}
+.nav2 .nav-container2 ul li{
+    text-decoration: none;
+    list-style: none;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+
+.nav2 .nav-container2 button{
+    background-color: rgb(9, 9, 236);
+    color: #fff;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+
+@media only screen and (max-width:550px){
+
+    .nav2 .nav-container2 ul{
+        display: none;   
+    }
+    .nav2 .nav-container2 .menu-bar{
+        display: block;
+    }
+}
+
+ /* Navigation bar3 */
+.nav3 {
+    margin-top: 50px;
+    height: 50px;
+    background-color: black;
+}
+
+.nav3 .nav-container3{ 
+    display: flex;
+    color: #fff;
+    justify-content: space-around;
+    padding-top: 15px;
+    text-align: center;
+
+}
+.nav3 .nav-container3 h3{
+    margin-right: 23%;
+}
+.nav3 .nav-container3 ul{
+    display: flex;   
+}
+.nav3 .nav-container3 ul li{
+    text-decoration: none;
+    list-style: none;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+.nav3 .nav-container3 button{
+    background-color: rgb(9, 9, 236);
+    color: #fff;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+.nav3 .nav-container3 .menu-bar{
+    display: none;
+}
+
+@media only screen and (max-width:550px){
+
+    .nav3 .nav-container3 ul{
+        display: none;   
+    }
+    .nav3 .nav-container3 .menu-bar{
+        display: block;
+    }
+}
