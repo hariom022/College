@@ -1,0 +1,59 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+body{
+    /* display: flex;
+    justify-content: center; */
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+.container{
+    display: flex;
+    /* margin: 10% 24% 0% 26%; */
+     box-shadow :2px 2px 6px black;
+     border-radius: 7px;
+     
+}
+.container .form-ontainer .form .logo i{
+    font-size: 17px;
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 7px;
+    height: 10px;
+    
+}
+.container .form-ontainer .form .logo .fa-twitter{
+    height: 10px;
+    width: 10px;
+}
+.container .form-ontainer .form{
+    text-align: center;
+    
+}
+
+.container .form-ontainer .form .input-box input{
+    width: 200px;
+    height: 36px;
+    margin-top: 10px;
+}
+.container .form-ontainer .form .input-box{
+    margin: 12px 88px 12px 88px;
+}
+.container .form-ontainer .form button{
+    margin-bottom: 20px;
+}
+
+.container .form-content{
+    text-align:center;
+    background-image: linear-gradient(to bottom right, red, yellow);
+    width: 388px;
+}
+.container .form-content .content{
+    padding: 57px 50px;
+
+}
